@@ -1,0 +1,6 @@
+item                price         qty
+pencils             $2.99           2
+shirt              $29.99           1
+subtotal:                      $32.98
+tax:                            $0.55
+total:                         $33.53
