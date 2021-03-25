@@ -7,6 +7,10 @@ Sales tax = roundup(price * quantity * sales tax rate)
 Certain product categories are exempt from sales tax (means tax will be 0), and sales tax amount should be
 rounded up to the nearest 0.05 (e.g. 1.13->1.15, 1.16->1.20, 1.151->1.20)
 
+**<h2>How to Run</h2>**
+
+Run `java printReceipt.java` on terminal.
+
 **<h2>Input</h2>**
 
 The input of the program includes: product name, price, quantity and location of the purchase. 
