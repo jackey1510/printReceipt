@@ -73,7 +73,7 @@ class PrintReceipt {
     }
 
     private static String readInput() {
-        String path = "input.csv";
+        String path = "input.txt";
         String input = "";
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader(path));
