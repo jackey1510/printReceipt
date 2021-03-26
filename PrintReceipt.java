@@ -13,9 +13,6 @@ class PrintReceipt {
         float totalTax = 0;
         List<String> foodList = getItemList("food.csv");
         List<String> clothingList = getItemList("clothing.csv");
-        System.out.println(taxRate.isExemptClothing());
-        System.out.println(taxRate.isExemptFood());
-        System.out.println(taxRate.getState());
 
         for (Item item : items) {
             // if not exempting the item
